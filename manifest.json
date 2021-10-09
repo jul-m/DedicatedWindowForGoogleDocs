@@ -1,0 +1,14 @@
+{
+  "name": "Dedicated Window For Google Docs",
+  "description": "Open your Google Docs, Sheets and Slides documents in separated and dedicated windows, without an address bar or browser buttons.",
+  "version": "1",
+  "manifest_version": 2,
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+  "permissions": [
+      "tabs"
+  ]
+}
